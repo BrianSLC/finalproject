@@ -1,0 +1,37 @@
+
+#timedate {
+  font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-align:center;
+  width: 50%;
+  margin: 40px auto;
+  color:Lime;
+
+}
+body {
+      animation: colorchange 27s;
+      -webkit-animation: colorchange 27s;
+      animation-iteration-count: infinite;
+    }
+
+
+
+    @keyframes colorchange
+    {
+      0%   {background: black;}
+3%     {background-color: black;}
+5%     {background-color: red;}
+      100% {background: black;}
+    }
+
+    @-webkit-keyframes colorchange
+      0%   {background: SpringGreen;}
+      20%  {background: green;}
+      70%  {background: YellowGreen;}
+      80%  {background: ForestGreen;}
+      100% {background: LawnGreen;}
+    }
+
+
+
+grid-gap: 0%;
+row-gap: 0%;
